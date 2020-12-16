@@ -2,8 +2,8 @@ import { createNodeDescriptor, INodeFunctionBaseParams } from "@cognigy/extensio
 import axios from 'axios';
 
 // set params
-const API_SERVER = 'https://85.214.32.152:90/apiservice/v1/'
-const API_ROUTE_ANLAGEDATEN = 'project/anlagedaten'
+const API_SERVER = 'https://85.214.32.152:90/apiservice/v1/';
+const API_ROUTE_ANLAGEDATEN = 'project/anlagedaten';
 
 export interface IGetEntityParams extends INodeFunctionBaseParams {
     config: {

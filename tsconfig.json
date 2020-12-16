@@ -1,8 +1,8 @@
 ﻿{
   "compileOnSave": true,
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "target": "ES6",
     "module": "commonjs",
     "rootDir": "src",
