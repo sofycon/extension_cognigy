@@ -1,0 +1,31 @@
+{
+  "name": "sofycon",
+  "version": "1.0.0",
+  "description": "Extension for sofycon",
+  "main": "build/module.js",
+  "dependencies": {
+    "@cognigy/extension-tools": "^0.10.0",
+    "axios": "^0.21.0",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "transpile": "tsc -p .",
+    "zip": "tar cfz sofycon.tar.gz build/* package.json package-lock.json README.md icon.png",
+    "build": "npm run transpile && npm run lint && npm run zip",
+    "lint": "tslint -c tslint.json src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofycon/extension_cognigy.git"
+  },
+  "keywords": [
+    "sofycon"
+  ],
+  "author": "sofycon GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sofycon/extension_cognigy/issues"
+  },
+  "homepage": "https://github.com/sofycon/extension_cognigy#readme"
+}
